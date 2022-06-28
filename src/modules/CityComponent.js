@@ -48,12 +48,12 @@ const CityComponent = (props) => {
     const{updateCity , fetchWeather} = props;
     return (
         <>
-        <WeatherLogo src = "/icons/logo.svg" />
+        <WeatherLogo src = "react-app/icons/logo.svg" />
         < ChooseCityLabel > Find Weather of your City </ChooseCityLabel>
         <SearchBox  onSubmit={fetchWeather}> 
             <input 
               onChange= {(e) => updateCity(e.target.value)}
-            placeholder=" City"
+            placeholder= " City"
             /> 
          <button type = {"submit"}>
              Search

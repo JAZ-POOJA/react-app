@@ -6,22 +6,26 @@ import CityComponent from "./modules/CityComponent";
 import WeatherComponent from "./modules/WeatherInfoComponent";
 
 export const WeatherIcons = {
-  "01d": "/icons/tree.svg",
-  "01n": "/icons/cloud-icon.svg",
-  "02d": "/icons/sunrise.svg",
-  "02n": "/icons/moon.svg",
-  "03d": "/icons/verycloudy.svg",
-  "03n": "/icons/cloud.svg",
-  "04d": "/icons/tree.svg",
-  "05d": "/icons/smile-cloud.svg",
-  "50n": "/icons/smile-cloud.svg",
-  "04n": "/icons/night.svg",
-  "09d": "/icons/rain.svg",
-  "09n": "/icons/mountain.svg",
-  "10d": "/icons/raindrops.svg",
-  "10n": "/icons/raincloud.svg",
-  "11d": "/icons/smile-cloud.svg",
-  "11n": "/icons/storm.svg",
+  "01d": "react-app/icons/01d@2x.png",
+  "01n": "react-app/icons/01n@2x.png",
+  "02d": "react-app/icons/02d@2x.png",
+  "02n": "react-app/icons/02n@2x.png",
+  "03n": "react-app/icons/03n@2x.png",
+  "03d": "react-app/icons/03d@2x.png",
+  "04d": "react-app/icons/04d@2x.png",
+  "05d": "react-app/icons/03d@2x.png",
+  "50n": "react-app/icons/03d@2x.png",
+  "04n": "react-app/icons/03d@2x.png",
+  "09n": "react-app/icons/09n@2x.png",
+  "09d": "react-app/icons/09d@2x.png",
+  "10d": "react-app/icons/10d@2x.png",
+  "10n": "react-app/icons/10n@2x.png",
+  "11d": "react-app/icons/11d@2x.png",
+  "11n": "react-app/icons/11n@2x.png",
+  "13n": "react-app/icons/13n@2x.png",
+  "13d": "react-app/icons/13d@2x.png",
+  "50d": "react-app/icons/50d@2x.png",
+
 };
 const Container = styled.div`
   display: flex;
