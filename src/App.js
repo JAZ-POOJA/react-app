@@ -6,22 +6,22 @@ import CityComponent from "./modules/CityComponent";
 import WeatherComponent from "./modules/WeatherInfoComponent";
 
 export const WeatherIcons = {
-  "01d": "/icons/tree.svg",
-  "01n": "/icons/cloud-icon.svg",
-  "02d": "/icons/sunrise.svg",
-  "02n": "/icons/moon.svg",
-  "03d": "/icons/verycloudy.svg",
-  "03n": "/icons/cloud.svg",
-  "04d": "/icons/tree.svg",
-  "05d": "/icons/smile-cloud.svg",
-  "50n": "/icons/smile-cloud.svg",
-  "04n": "/icons/night.svg",
-  "09d": "/icons/rain.svg",
-  "09n": "/icons/mountain.svg",
-  "10d": "/icons/raindrops.svg",
-  "10n": "/icons/raincloud.svg",
-  "11d": "/icons/smile-cloud.svg",
-  "11n": "/icons/storm.svg",
+  "01d": "weather-app/icons/tree.svg",
+  "01n": "weather-app/icons/cloud-icon.svg",
+  "02d": "weather-app/icons/sunrise.svg",
+  "02n": "weather-app/icons/moon.svg",
+  "03d": "weather-app/icons/verycloudy.svg",
+  "03n": "weather-app/icons/cloud.svg",
+  "04d": "weather-app/icons/tree.svg",
+  "05d": "weather-app/icons/smile-cloud.svg",
+  "50n": "weather-app/icons/smile-cloud.svg",
+  "04n": "weather-app/icons/night.svg",
+  "09d": "weather-app/icons/rain.svg",
+  "09n": "weather-app/icons/mountain.svg",
+  "10d": "weather-app/icons/raindrops.svg",
+  "10n": "weather-app/icons/raincloud.svg",
+  "11d": "weather-app/icons/smile-cloud.svg",
+  "11n": "weather-app/icons/storm.svg",
 };
 const Container = styled.div`
   display: flex;
